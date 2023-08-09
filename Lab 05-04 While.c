@@ -1,20 +1,12 @@
 #include <stdio.h>
-
+ 
 int main(){
-    int num, i, lab;
+    int num, i;
+    i = 1;
     scanf("%d", &num);
-    lab = num;
-    if (num < 0){
-        while (num <= i){
-            printf("%d ", num);
-            num++;
-        }
-    } else{
-        while (i <= lab){
-        printf("%d ", num);
-        num = num - 1;
+    while (i <= num){
+        printf("%d ", i);
         i++;
-        }
     }
     return 0;
 }
